@@ -1,4 +1,4 @@
-//começo jogo da velha
+ //começo jogo da velha
 
 let currentPlayer = 'X';
 let board = ['', '', '', '', '', '', '', '', ''];
@@ -46,10 +46,11 @@ function resetBoard(){
 
 }
  // final jogo da velha 
- const toggleBtn = document.getElementById("toggle-mode"); //botao a ser clicado
- const body = document.body; //corpo da pág.
+ const toggleBtn = document.getElementById('toggle');
+ const body = document.body; //corpo do documento
  
- toggleBtn.addEventListener("click", function(){
-     body.classList.toggle("dark-mode")
+ toggleBtn.addEventListener('click', function(){
+     body.classList.toggle('dark-mode')
  })
+ 
 //dark mode
